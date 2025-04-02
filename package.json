@@ -1,0 +1,12 @@
+{
+  "name": "laboratorio",
+  "version": "1.0.0",
+  "description": "testito",
+  "main": "index.js",
+  "scripts": {
+    "saludo": "Bienvenidos",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lourdes",
+  "license": "ISC"
+}

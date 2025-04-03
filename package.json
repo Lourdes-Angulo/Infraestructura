@@ -4,9 +4,13 @@
   "description": "testito",
   "main": "index.js",
   "scripts": {
-    "saludo": "Bienvenidos",
+    "develop": "node app.js",
+    "start": "export STAGE=prod && node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lourdes",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
